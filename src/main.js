@@ -26,4 +26,4 @@ new Vue({
   render: h => h(App)
 })
 
-router.push('/index')
+// router.push('/index')
