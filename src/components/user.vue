@@ -8,7 +8,7 @@
       </thead>
       <tbody>
         <tr v-for="td in tbody">
-          <td>{{ td }}</td>
+          <td v-for="tds in td">{{ tds }}</td>
         </tr>
       </tbody>
     </table>
